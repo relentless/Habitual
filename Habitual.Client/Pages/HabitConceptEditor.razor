@@ -1,0 +1,21 @@
+
+<EditForm Model="@Concept" OnValidSubmit="@UpdateModel">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <input placeholder="Name" @bind="Concept.Name"/>
+    <InputSelect @bind-Value="Concept.Type">
+        <option value="Good">Good</option>
+        <option value="Bad">Bad</option>
+    </InputSelect>
+    <input placeholder="Started" @bind="Concept.Start"/>
+    <button type="submit">Update</button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public HabitConcept Concept {get; set; }
+
+    private void UpdateModel(){
+        System.Console.WriteLine("Habit Updated");
+    }
+}

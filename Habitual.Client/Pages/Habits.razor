@@ -1,0 +1,30 @@
+@page "/habits"
+
+<h1>Habits</h1>
+
+<ul>
+@foreach (var habit in habitConcepts){
+    <li><HabitConceptEditor Concept="@habit"/></li>
+}
+</ul>
+
+<EditForm Model="@newConcept" OnValidSubmit="@AddConcept">
+    <input placeholder="Name" @bind="newConcept.Name"/>
+    <InputSelect @bind-Value="newConcept.Type">
+        <option value="Good">Good</option>
+        <option value="Bad">Bad</option>
+    </InputSelect>
+    <input placeholder="Started" @bind="newConcept.Start"/>
+    <button type="submit">Add</button>
+</EditForm>
+
+@code {
+    private HabitConcept newConcept = new HabitConcept {Active = true, Start=DateTime.Now};
+    private List<HabitConcept> habitConcepts = new List<HabitConcept>();
+
+        private void AddConcept(){
+            habitConcepts.Add(newConcept);
+            System.Console.WriteLine("Added " + newConcept);
+            newConcept = new HabitConcept {Active = true, Start=DateTime.Now};
+        }
+}
