@@ -69,15 +69,15 @@ using Microsoft.JSInterop;
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Programming\Blazor\Habitual\Habitual.Client\_Imports.razor"
-using Habitual.Client;
+#line 10 "C:\Programming\Blazor\Habitual\Habitual.Client\_Imports.razor"
+using Habitual.Client.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Programming\Blazor\Habitual\Habitual.Client\_Imports.razor"
-using Habitual.Client.Shared;
+#line 2 "C:\Programming\Blazor\Habitual\Habitual.Client\Pages\Habits.razor"
+using Habitual.Client;
 
 #line default
 #line hidden
@@ -91,16 +91,23 @@ using Habitual.Client.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 21 "C:\Programming\Blazor\Habitual\Habitual.Client\Pages\Habits.razor"
+#line 14 "C:\Programming\Blazor\Habitual\Habitual.Client\Pages\Habits.razor"
        
-    private HabitConcept newConcept = new HabitConcept {Active = true, Start=DateTime.Now};
+
     private List<HabitConcept> habitConcepts = new List<HabitConcept>();
 
-        private void AddConcept(){
-            habitConcepts.Add(newConcept);
-            System.Console.WriteLine("Added " + newConcept);
-            newConcept = new HabitConcept {Active = true, Start=DateTime.Now};
-        }
+    private void AddConcept(HabitConcept concept){
+        habitConcepts.Add(concept);
+        System.Console.WriteLine("Added " + concept);
+        concept = new HabitConcept {Active = true, Start=DateTime.Now};
+    }
+
+    private void UpdateConcept(HabitConcept concept){
+        var conceptToUpdate = habitConcepts.FirstOrDefault(item => item.Id == concept.Id);
+        conceptToUpdate.UpdateFrom(concept);
+        System.Console.WriteLine("Updated " + concept);
+        concept = new HabitConcept {Active = true, Start=DateTime.Now};
+    }
 
 #line default
 #line hidden

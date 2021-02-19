@@ -41,6 +41,225 @@
         }
       },
       {
+        "HashCode": -1762183284,
+        "Kind": "Components.Component",
+        "Name": "Habitual.Client.Pages.Counter",
+        "AssemblyName": "Habitual.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Habitual.Client.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": -393537388,
+        "Kind": "Components.Component",
+        "Name": "Habitual.Client.Pages.Counter",
+        "AssemblyName": "Habitual.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Habitual.Client.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Habitual.Client.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -848780967,
+        "Kind": "Components.Component",
+        "Name": "Habitual.Client.Pages.FetchData",
+        "AssemblyName": "Habitual.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Habitual.Client.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": 2079868561,
+        "Kind": "Components.Component",
+        "Name": "Habitual.Client.Pages.FetchData",
+        "AssemblyName": "Habitual.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Habitual.Client.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Habitual.Client.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1865889023,
+        "Kind": "Components.Component",
+        "Name": "Habitual.Client.Pages.Index",
+        "AssemblyName": "Habitual.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Habitual.Client.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 1938751311,
+        "Kind": "Components.Component",
+        "Name": "Habitual.Client.Pages.Index",
+        "AssemblyName": "Habitual.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Habitual.Client.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Habitual.Client.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1949701388,
+        "Kind": "Components.Component",
+        "Name": "Habitual.Client.Pages.HabitConceptEditor",
+        "AssemblyName": "Habitual.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "HabitConceptEditor"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Concept",
+            "TypeName": "Habitual.Client.HabitConcept",
+            "Metadata": {
+              "Common.PropertyName": "Concept"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Mode",
+            "TypeName": "ComponentMode",
+            "Metadata": {
+              "Common.PropertyName": "Mode"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnClick",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Habitual.Client.HabitConcept>",
+            "Metadata": {
+              "Common.PropertyName": "OnClick",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Habitual.Client.Pages.HabitConceptEditor"
+        }
+      },
+      {
+        "HashCode": 1821428313,
+        "Kind": "Components.Component",
+        "Name": "Habitual.Client.Pages.HabitConceptEditor",
+        "AssemblyName": "Habitual.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Habitual.Client.Pages.HabitConceptEditor"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Concept",
+            "TypeName": "Habitual.Client.HabitConcept",
+            "Metadata": {
+              "Common.PropertyName": "Concept"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Mode",
+            "TypeName": "ComponentMode",
+            "Metadata": {
+              "Common.PropertyName": "Mode"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnClick",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Habitual.Client.HabitConcept>",
+            "Metadata": {
+              "Common.PropertyName": "OnClick",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Habitual.Client.Pages.HabitConceptEditor",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -324041095,
+        "Kind": "Components.Component",
+        "Name": "Habitual.Client.Pages.Habits",
+        "AssemblyName": "Habitual.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Habits"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Habitual.Client.Pages.Habits"
+        }
+      },
+      {
+        "HashCode": -1266891748,
+        "Kind": "Components.Component",
+        "Name": "Habitual.Client.Pages.Habits",
+        "AssemblyName": "Habitual.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Habitual.Client.Pages.Habits"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Habitual.Client.Pages.Habits",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 284523775,
         "Kind": "Components.Component",
         "Name": "Habitual.Client.Shared.SurveyPrompt",
@@ -219,191 +438,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Habitual.Client.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -848780967,
-        "Kind": "Components.Component",
-        "Name": "Habitual.Client.Pages.FetchData",
-        "AssemblyName": "Habitual.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Habitual.Client.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": 2079868561,
-        "Kind": "Components.Component",
-        "Name": "Habitual.Client.Pages.FetchData",
-        "AssemblyName": "Habitual.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Habitual.Client.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Habitual.Client.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1762183284,
-        "Kind": "Components.Component",
-        "Name": "Habitual.Client.Pages.Counter",
-        "AssemblyName": "Habitual.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Habitual.Client.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": -393537388,
-        "Kind": "Components.Component",
-        "Name": "Habitual.Client.Pages.Counter",
-        "AssemblyName": "Habitual.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Habitual.Client.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Habitual.Client.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1865889023,
-        "Kind": "Components.Component",
-        "Name": "Habitual.Client.Pages.Index",
-        "AssemblyName": "Habitual.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Habitual.Client.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 1938751311,
-        "Kind": "Components.Component",
-        "Name": "Habitual.Client.Pages.Index",
-        "AssemblyName": "Habitual.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Habitual.Client.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Habitual.Client.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -324041095,
-        "Kind": "Components.Component",
-        "Name": "Habitual.Client.Pages.Habits",
-        "AssemblyName": "Habitual.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Habits"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Habitual.Client.Pages.Habits"
-        }
-      },
-      {
-        "HashCode": -1266891748,
-        "Kind": "Components.Component",
-        "Name": "Habitual.Client.Pages.Habits",
-        "AssemblyName": "Habitual.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Habitual.Client.Pages.Habits"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Habitual.Client.Pages.Habits",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 160660461,
-        "Kind": "Components.Component",
-        "Name": "Habitual.Client.Pages.HabitConceptEditor",
-        "AssemblyName": "Habitual.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "HabitConceptEditor"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Concept",
-            "TypeName": "HabitConcept",
-            "Metadata": {
-              "Common.PropertyName": "Concept"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Habitual.Client.Pages.HabitConceptEditor"
-        }
-      },
-      {
-        "HashCode": 2036939891,
-        "Kind": "Components.Component",
-        "Name": "Habitual.Client.Pages.HabitConceptEditor",
-        "AssemblyName": "Habitual.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Habitual.Client.Pages.HabitConceptEditor"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Concept",
-            "TypeName": "HabitConcept",
-            "Metadata": {
-              "Common.PropertyName": "Concept"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Habitual.Client.Pages.HabitConceptEditor",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

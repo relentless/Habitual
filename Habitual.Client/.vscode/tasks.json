@@ -37,6 +37,16 @@
                 "/consoleloggerparameters:NoSummary"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build local",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/Habitual.Client.csproj",
+            ],
+            "problemMatcher": "$msCompile"
         }
     ]
 }

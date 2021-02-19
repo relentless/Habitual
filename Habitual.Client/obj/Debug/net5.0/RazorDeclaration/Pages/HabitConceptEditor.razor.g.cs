@@ -69,15 +69,15 @@ using Microsoft.JSInterop;
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Programming\Blazor\Habitual\Habitual.Client\_Imports.razor"
-using Habitual.Client;
+#line 10 "C:\Programming\Blazor\Habitual\Habitual.Client\_Imports.razor"
+using Habitual.Client.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Programming\Blazor\Habitual\Habitual.Client\_Imports.razor"
-using Habitual.Client.Shared;
+#line 1 "C:\Programming\Blazor\Habitual\Habitual.Client\Pages\HabitConceptEditor.razor"
+using Habitual.Client;
 
 #line default
 #line hidden
@@ -90,13 +90,18 @@ using Habitual.Client.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 14 "C:\Programming\Blazor\Habitual\Habitual.Client\Pages\HabitConceptEditor.razor"
+#line 15 "C:\Programming\Blazor\Habitual\Habitual.Client\Pages\HabitConceptEditor.razor"
        
     [Parameter]
     public HabitConcept Concept {get; set; }
 
-    private void UpdateModel(){
-        System.Console.WriteLine("Habit Updated");
+    [Parameter]
+    public ComponentMode Mode {get; set;}
+
+    [Parameter] public EventCallback<HabitConcept> OnClick { get; set; }
+    
+    private string Buttontext(ComponentMode mode){
+        return mode==ComponentMode.Add?"Add":"Update";
     }
 
 #line default

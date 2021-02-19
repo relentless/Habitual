@@ -1,5 +1,6 @@
+@using Habitual.Client
 
-<EditForm Model="@Concept" OnValidSubmit="@UpdateModel">
+<EditForm Model="@Concept" OnValidSubmit="@(() => OnClick.InvokeAsync(Concept))">
     <DataAnnotationsValidator />
     <ValidationSummary />
     <input placeholder="Name" @bind="Concept.Name"/>
@@ -8,14 +9,19 @@
         <option value="Bad">Bad</option>
     </InputSelect>
     <input placeholder="Started" @bind="Concept.Start"/>
-    <button type="submit">Update</button>
+    <button type="submit">@ButtonText(Mode)</button>
 </EditForm>
 
 @code {
     [Parameter]
     public HabitConcept Concept {get; set; }
 
-    private void UpdateModel(){
-        System.Console.WriteLine("Habit Updated");
+    [Parameter]
+    public ComponentMode Mode {get; set;}
+
+    [Parameter] public EventCallback<HabitConcept> OnClick { get; set; }
+    
+    private string Buttontext(ComponentMode mode){
+        return mode==ComponentMode.Add?"Add":"Update";
     }
 }
