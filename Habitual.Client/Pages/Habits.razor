@@ -1,10 +1,11 @@
 @page "/habits"
 @using Habitual.Client
+@inject HabitsModel Model
 
 <h1>Habits</h1>
 
 <ul>
-@foreach (var habit in habitConcepts){
+@foreach (var habit in Model.HabitConcepts){
     <li><HabitConceptEditor Concept="@habit" Mode="@ComponentMode.Edit" OnClick="UpdateConcept" /></li>
 }
 </ul>
@@ -13,17 +14,16 @@
 
 @code {
 
-    private List<HabitConcept> habitConcepts = new List<HabitConcept>();
+    //private List<HabitConcept> habitConcepts = new List<HabitConcept>();
 
     private void AddConcept(HabitConcept concept){
-        habitConcepts.Add(concept);
+        Model.AddConcept(concept);
         System.Console.WriteLine("Added " + concept);
         concept = new HabitConcept {Active = true, Start=DateTime.Now};
     }
 
     private void UpdateConcept(HabitConcept concept){
-        var conceptToUpdate = habitConcepts.FirstOrDefault(item => item.Id == concept.Id);
-        conceptToUpdate.UpdateFrom(concept);
+        Model.UpdateConcept(concept);
         System.Console.WriteLine("Updated " + concept);
         concept = new HabitConcept {Active = true, Start=DateTime.Now};
     }

@@ -21,7 +21,7 @@
 
     [Parameter] public EventCallback<HabitConcept> OnClick { get; set; }
     
-    private string Buttontext(ComponentMode mode){
+    private string ButtonText(ComponentMode mode){
         return mode==ComponentMode.Add?"Add":"Update";
     }
 }

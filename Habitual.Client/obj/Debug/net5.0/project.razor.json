@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Programming\\Blazor\\Habitual\\Habitual.Client\\Habitual.Client.csproj",
+  "FilePath": "c:\\programming\\Blazor\\Habitual\\Habitual.Client\\Habitual.Client.csproj",
   "Configuration": {
     "ConfigurationName": "Default",
     "LanguageVersion": "5.0",
@@ -7,39 +7,6 @@
   },
   "ProjectWorkspaceState": {
     "TagHelpers": [
-      {
-        "HashCode": -2126403236,
-        "Kind": "Components.Component",
-        "Name": "Habitual.Client.App",
-        "AssemblyName": "Habitual.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Habitual.Client.App"
-        }
-      },
-      {
-        "HashCode": 1695989759,
-        "Kind": "Components.Component",
-        "Name": "Habitual.Client.App",
-        "AssemblyName": "Habitual.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Habitual.Client.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Habitual.Client.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
       {
         "HashCode": -1762183284,
         "Kind": "Components.Component",
@@ -162,7 +129,8 @@
           {
             "Kind": "Components.Component",
             "Name": "Mode",
-            "TypeName": "ComponentMode",
+            "TypeName": "Habitual.Client.ComponentMode",
+            "IsEnum": true,
             "Metadata": {
               "Common.PropertyName": "Mode"
             }
@@ -205,7 +173,8 @@
           {
             "Kind": "Components.Component",
             "Name": "Mode",
-            "TypeName": "ComponentMode",
+            "TypeName": "Habitual.Client.ComponentMode",
+            "IsEnum": true,
             "Metadata": {
               "Common.PropertyName": "Mode"
             }
@@ -223,6 +192,98 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Habitual.Client.Pages.HabitConceptEditor",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 2034937124,
+        "Kind": "Components.Component",
+        "Name": "Habitual.Client.Pages.StorageHelper",
+        "AssemblyName": "Habitual.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "StorageHelper"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Habitual.Client.Pages.StorageHelper"
+        }
+      },
+      {
+        "HashCode": -191966226,
+        "Kind": "Components.Component",
+        "Name": "Habitual.Client.Pages.StorageHelper",
+        "AssemblyName": "Habitual.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Habitual.Client.Pages.StorageHelper"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Habitual.Client.Pages.StorageHelper",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 63649937,
+        "Kind": "Components.ChildContent",
+        "Name": "Habitual.Client.Pages.StorageHelper.ChildContent",
+        "AssemblyName": "Habitual.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "StorageHelper"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "Habitual.Client.Pages.StorageHelper.ChildContent",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": 1866111994,
+        "Kind": "Components.ChildContent",
+        "Name": "Habitual.Client.Pages.StorageHelper.ChildContent",
+        "AssemblyName": "Habitual.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "Habitual.Client.Pages.StorageHelper"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "Habitual.Client.Pages.StorageHelper.ChildContent",
+          "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -438,6 +499,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Habitual.Client.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -2126403236,
+        "Kind": "Components.Component",
+        "Name": "Habitual.Client.App",
+        "AssemblyName": "Habitual.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Habitual.Client.App"
+        }
+      },
+      {
+        "HashCode": 1695989759,
+        "Kind": "Components.Component",
+        "Name": "Habitual.Client.App",
+        "AssemblyName": "Habitual.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Habitual.Client.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Habitual.Client.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13113,52 +13207,57 @@
   "RootNamespace": "Habitual.Client",
   "Documents": [
     {
-      "FilePath": "c:\\Programming\\Blazor\\Habitual\\Habitual.Client\\Pages\\Counter.razor",
+      "FilePath": "c:\\programming\\Blazor\\Habitual\\Habitual.Client\\Pages\\Counter.razor",
       "TargetPath": "Pages\\Counter.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Programming\\Blazor\\Habitual\\Habitual.Client\\Shared\\MainLayout.razor",
+      "FilePath": "c:\\programming\\Blazor\\Habitual\\Habitual.Client\\Shared\\MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Programming\\Blazor\\Habitual\\Habitual.Client\\Pages\\Habits.razor",
+      "FilePath": "c:\\programming\\Blazor\\Habitual\\Habitual.Client\\Pages\\Habits.razor",
       "TargetPath": "Pages\\Habits.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Programming\\Blazor\\Habitual\\Habitual.Client\\App.razor",
+      "FilePath": "c:\\programming\\Blazor\\Habitual\\Habitual.Client\\App.razor",
       "TargetPath": "App.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Programming\\Blazor\\Habitual\\Habitual.Client\\Shared\\SurveyPrompt.razor",
+      "FilePath": "c:\\programming\\Blazor\\Habitual\\Habitual.Client\\Shared\\SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Programming\\Blazor\\Habitual\\Habitual.Client\\Pages\\HabitConceptEditor.razor",
+      "FilePath": "c:\\programming\\Blazor\\Habitual\\Habitual.Client\\Pages\\HabitConceptEditor.razor",
       "TargetPath": "Pages\\HabitConceptEditor.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Programming\\Blazor\\Habitual\\Habitual.Client\\_Imports.razor",
+      "FilePath": "c:\\programming\\Blazor\\Habitual\\Habitual.Client\\Pages\\StorageHelper.razor",
+      "TargetPath": "Pages\\StorageHelper.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\programming\\Blazor\\Habitual\\Habitual.Client\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
     },
     {
-      "FilePath": "c:\\Programming\\Blazor\\Habitual\\Habitual.Client\\Pages\\FetchData.razor",
+      "FilePath": "c:\\programming\\Blazor\\Habitual\\Habitual.Client\\Pages\\FetchData.razor",
       "TargetPath": "Pages\\FetchData.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Programming\\Blazor\\Habitual\\Habitual.Client\\Shared\\NavMenu.razor",
+      "FilePath": "c:\\programming\\Blazor\\Habitual\\Habitual.Client\\Shared\\NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Programming\\Blazor\\Habitual\\Habitual.Client\\Pages\\Index.razor",
+      "FilePath": "c:\\programming\\Blazor\\Habitual\\Habitual.Client\\Pages\\Index.razor",
       "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
     }

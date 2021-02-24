@@ -1144,23 +1144,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Grant\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\grantc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Programming\\Blazor\\Habitual\\Habitual.Client\\Habitual.Client.csproj",
+      "projectUniqueName": "c:\\programming\\Blazor\\Habitual\\Habitual.Client\\Habitual.Client.csproj",
       "projectName": "Habitual.Client",
-      "projectPath": "C:\\Programming\\Blazor\\Habitual\\Habitual.Client\\Habitual.Client.csproj",
-      "packagesPath": "C:\\Users\\Grant\\.nuget\\packages\\",
-      "outputPath": "C:\\Programming\\Blazor\\Habitual\\Habitual.Client\\obj\\",
+      "projectPath": "c:\\programming\\Blazor\\Habitual\\Habitual.Client\\Habitual.Client.csproj",
+      "packagesPath": "C:\\Users\\grantc\\.nuget\\packages\\",
+      "outputPath": "c:\\programming\\Blazor\\Habitual\\Habitual.Client\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Grant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\grantc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
