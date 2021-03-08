@@ -3,7 +3,7 @@ using System;
 namespace Habitual.Client {
     public class HabitConcept {
 
-        public Guid Id {get;} = Guid.NewGuid();
+        public Guid Id {get; set;}
         public string Name { get; set; }
         public HabitType Type { get; set; }
         public DateTime Start { get; set; }
@@ -11,6 +11,7 @@ namespace Habitual.Client {
 
         public HabitConcept()
         {
+            Id = Guid.NewGuid();
             Start = DateTime.Now;
             Active = true;
             Type = HabitType.Good;
@@ -22,7 +23,7 @@ namespace Habitual.Client {
 
         public override string ToString()
         {
-            return "Name: " + Name + ", Type: " + Type;
+            return "Id: " + Id + ", Name: " + Name + ", Type: " + Type;
         }
 
         public void UpdateFrom(HabitConcept conceptToCopy){

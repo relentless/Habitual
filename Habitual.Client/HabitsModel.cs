@@ -9,9 +9,14 @@ namespace Habitual.Client {
         public HabitsModel()
         {
             HabitConcepts = new List<HabitConcept>();
+            HabitInstances = new List<HabitInstance>();
         }
 
         public List<HabitConcept> HabitConcepts { 
+            get; set;
+        }
+
+        public List<HabitInstance> HabitInstances { 
             get; set;
         }
 
@@ -25,6 +30,12 @@ namespace Habitual.Client {
             conceptToUpdate.UpdateFrom(concept);
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(HabitConcepts)));
         }
+
+        public void AddInstance(HabitInstance instance){
+            HabitInstances.Add(instance);
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(HabitInstances)));
+        }
+
         public event PropertyChangedEventHandler PropertyChanged;
     }
 }

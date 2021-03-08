@@ -2,7 +2,7 @@ using System;
 
 namespace Habitual.Client {
     public class HabitInstance {
-        public HabitConcept Habit { get; set; }
+        public Guid HabitId { get; set; }
         public DateTime When { get; set; }
     }
 }
