@@ -10,10 +10,7 @@
 }
 </select>
 
-@if(selectedHabit != null) {
-    <div>
-        Selected Habit: @selectedHabit.Name
-    </div>
+@if(Model.SelectedConcept != null) {
     <div>
         <EditForm Model="@newInstance" OnValidSubmit="@(() => OnAddInstance(newInstance))">
             <DataAnnotationsValidator />
@@ -22,33 +19,20 @@
             <button type="submit">Record</button>
         </EditForm>
     </div>
-    <div>
-        @foreach (var instance in selectedInstances) {
-            @instance.When.ToString() <br/>
-        }
-    </div>
 }
+<br/>
+<InstanceSummary LocalModel="@Model" />
 
 @code {
-    private HabitConcept selectedHabit;
-
     private HabitInstance newInstance = new HabitInstance {When=DateTime.Now};
 
-    private List<HabitInstance> selectedInstances = new List<HabitInstance>();
-
     private void ItemSelected(ChangeEventArgs eventArgs) {
-        selectedHabit = Model.HabitConcepts.Where(concept => concept.Id.ToString() == eventArgs.Value.ToString()).First();
-        newInstance.HabitId = selectedHabit.Id;
-        LoadSelectedInstances();
+        Model.SelectedConcept = Model.HabitConcepts.Where(concept => concept.Id.ToString() == eventArgs.Value.ToString()).First();
+        newInstance.HabitId = Model.SelectedConcept.Id;
     }
 
     private void OnAddInstance(HabitInstance instance) {
         Model.AddInstance(instance);
-        newInstance = new HabitInstance {When=DateTime.Now, HabitId = selectedHabit.Id};
-        LoadSelectedInstances();
-    }
-
-    private void LoadSelectedInstances(){
-            selectedInstances = Model.HabitInstances.Where(instance => instance.HabitId == selectedHabit.Id).ToList();
+        newInstance = new HabitInstance {When=DateTime.Now, HabitId = Model.SelectedConcept.Id};
     }
 }

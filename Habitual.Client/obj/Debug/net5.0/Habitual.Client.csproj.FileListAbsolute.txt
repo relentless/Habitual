@@ -632,3 +632,5 @@ C:\Programming\Blazor\Habitual\Habitual.Client\obj\Debug\net5.0\build-gz\WDAowFT
 C:\Programming\Blazor\Habitual\Habitual.Client\obj\Debug\net5.0\build-gz\krtHgcgK.gz
 C:\Programming\Blazor\Habitual\Habitual.Client\obj\Debug\net5.0\RazorDeclaration\Pages\HabitRecorder.razor.g.cs
 C:\Programming\Blazor\Habitual\Habitual.Client\obj\Debug\net5.0\Razor\Pages\HabitRecorder.razor.g.cs
+C:\Programming\Blazor\Habitual\Habitual.Client\obj\Debug\net5.0\RazorDeclaration\Pages\InstanceSummary.razor.g.cs
+C:\Programming\Blazor\Habitual\Habitual.Client\obj\Debug\net5.0\Razor\Pages\InstanceSummary.razor.g.cs

@@ -12,13 +12,27 @@ namespace Habitual.Client {
             HabitInstances = new List<HabitInstance>();
         }
 
-        public List<HabitConcept> HabitConcepts { 
-            get; set;
+        public List<HabitConcept> HabitConcepts { get; set; }
+
+        public List<HabitInstance> HabitInstances { get; set; }
+
+        private HabitConcept selectedConcept;
+        public HabitConcept SelectedConcept { 
+            get { return selectedConcept; }
+            set {
+                selectedConcept = value;
+                MarkSelectedInstancesChanged();
+            }
         }
 
-        public List<HabitInstance> HabitInstances { 
-            get; set;
-        }
+        public List<HabitInstance> SelectedInstances { get{
+            if(SelectedConcept != null) {
+                return HabitInstances.Where(instance => instance.HabitId == selectedConcept.Id).ToList();
+            }
+            else {
+                return new List<HabitInstance>();
+            }
+        } }
 
         public void AddConcept(HabitConcept concept){
             HabitConcepts.Add(concept);
@@ -34,6 +48,11 @@ namespace Habitual.Client {
         public void AddInstance(HabitInstance instance){
             HabitInstances.Add(instance);
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(HabitInstances)));
+            MarkSelectedInstancesChanged();
+        }
+
+        private void MarkSelectedInstancesChanged(){
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(SelectedInstances)));
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

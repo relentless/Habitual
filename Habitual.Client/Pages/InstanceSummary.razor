@@ -1,0 +1,24 @@
+@using Habitual.Client
+@if(LocalModel != null) {
+    <h3>@LocalModel?.SelectedConcept?.Name</h3>
+
+    <em>Last Five</em>
+    <div>
+        @foreach (var instance in LocalModel?.SelectedInstances.OrderBy(instance =>  DateTime.Now - instance.When).Take(5)) {
+            @instance.When.ToString() <br/>
+        }
+    </div>
+    <br/>
+    <p><em>Last Day:</em> @LocalModel?.SelectedInstances.Where(instance => instance.When.AddHours(24) > DateTime.Now).Count()</p>
+
+    <p><em>Last Week:</em> @LocalModel?.SelectedInstances.Where(instance => instance.When.AddDays(7) > DateTime.Now).Count()</p>
+
+    <p><em>Last Month:</em> @LocalModel?.SelectedInstances.Where(instance => instance.When.AddMonths(1) > DateTime.Now).Count()</p>
+}
+
+@code {
+
+    [Parameter]
+    public HabitsModel LocalModel { get; set;}
+
+}

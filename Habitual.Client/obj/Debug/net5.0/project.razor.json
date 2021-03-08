@@ -203,39 +203,6 @@
         }
       },
       {
-        "HashCode": -324041095,
-        "Kind": "Components.Component",
-        "Name": "Habitual.Client.Pages.Habits",
-        "AssemblyName": "Habitual.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Habits"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Habitual.Client.Pages.Habits"
-        }
-      },
-      {
-        "HashCode": -1266891748,
-        "Kind": "Components.Component",
-        "Name": "Habitual.Client.Pages.Habits",
-        "AssemblyName": "Habitual.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Habitual.Client.Pages.Habits"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Habitual.Client.Pages.Habits",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 2034937124,
         "Kind": "Components.Component",
         "Name": "Habitual.Client.Pages.StorageHelper",
@@ -413,6 +380,92 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Habitual.Client.Pages.HabitConceptEditor",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -324041095,
+        "Kind": "Components.Component",
+        "Name": "Habitual.Client.Pages.Habits",
+        "AssemblyName": "Habitual.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Habits"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Habitual.Client.Pages.Habits"
+        }
+      },
+      {
+        "HashCode": -1266891748,
+        "Kind": "Components.Component",
+        "Name": "Habitual.Client.Pages.Habits",
+        "AssemblyName": "Habitual.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Habitual.Client.Pages.Habits"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Habitual.Client.Pages.Habits",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1722350254,
+        "Kind": "Components.Component",
+        "Name": "Habitual.Client.Pages.InstanceSummary",
+        "AssemblyName": "Habitual.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "InstanceSummary"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "LocalModel",
+            "TypeName": "Habitual.Client.HabitsModel",
+            "Metadata": {
+              "Common.PropertyName": "LocalModel"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Habitual.Client.Pages.InstanceSummary"
+        }
+      },
+      {
+        "HashCode": 1714571648,
+        "Kind": "Components.Component",
+        "Name": "Habitual.Client.Pages.InstanceSummary",
+        "AssemblyName": "Habitual.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Habitual.Client.Pages.InstanceSummary"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "LocalModel",
+            "TypeName": "Habitual.Client.HabitsModel",
+            "Metadata": {
+              "Common.PropertyName": "LocalModel"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Habitual.Client.Pages.InstanceSummary",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13120,6 +13173,11 @@
   },
   "RootNamespace": "Habitual.Client",
   "Documents": [
+    {
+      "FilePath": "c:\\Programming\\Blazor\\Habitual\\Habitual.Client\\Pages\\InstanceSummary.razor",
+      "TargetPath": "Pages\\InstanceSummary.razor",
+      "FileKind": "component"
+    },
     {
       "FilePath": "c:\\Programming\\Blazor\\Habitual\\Habitual.Client\\Shared\\MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
