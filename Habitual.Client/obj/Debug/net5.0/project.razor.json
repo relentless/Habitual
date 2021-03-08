@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\programming\\Blazor\\Habitual\\Habitual.Client\\Habitual.Client.csproj",
+  "FilePath": "c:\\Programming\\Blazor\\Habitual\\Habitual.Client\\Habitual.Client.csproj",
   "Configuration": {
     "ConfigurationName": "Default",
     "LanguageVersion": "5.0",
@@ -7,194 +7,6 @@
   },
   "ProjectWorkspaceState": {
     "TagHelpers": [
-      {
-        "HashCode": -1762183284,
-        "Kind": "Components.Component",
-        "Name": "Habitual.Client.Pages.Counter",
-        "AssemblyName": "Habitual.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Habitual.Client.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": -393537388,
-        "Kind": "Components.Component",
-        "Name": "Habitual.Client.Pages.Counter",
-        "AssemblyName": "Habitual.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Habitual.Client.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Habitual.Client.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -848780967,
-        "Kind": "Components.Component",
-        "Name": "Habitual.Client.Pages.FetchData",
-        "AssemblyName": "Habitual.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Habitual.Client.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": 2079868561,
-        "Kind": "Components.Component",
-        "Name": "Habitual.Client.Pages.FetchData",
-        "AssemblyName": "Habitual.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Habitual.Client.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Habitual.Client.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1865889023,
-        "Kind": "Components.Component",
-        "Name": "Habitual.Client.Pages.Index",
-        "AssemblyName": "Habitual.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Habitual.Client.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 1938751311,
-        "Kind": "Components.Component",
-        "Name": "Habitual.Client.Pages.Index",
-        "AssemblyName": "Habitual.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Habitual.Client.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Habitual.Client.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1949701388,
-        "Kind": "Components.Component",
-        "Name": "Habitual.Client.Pages.HabitConceptEditor",
-        "AssemblyName": "Habitual.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "HabitConceptEditor"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Concept",
-            "TypeName": "Habitual.Client.HabitConcept",
-            "Metadata": {
-              "Common.PropertyName": "Concept"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Mode",
-            "TypeName": "Habitual.Client.ComponentMode",
-            "IsEnum": true,
-            "Metadata": {
-              "Common.PropertyName": "Mode"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "OnClick",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Habitual.Client.HabitConcept>",
-            "Metadata": {
-              "Common.PropertyName": "OnClick",
-              "Components.EventCallback": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Habitual.Client.Pages.HabitConceptEditor"
-        }
-      },
-      {
-        "HashCode": 1821428313,
-        "Kind": "Components.Component",
-        "Name": "Habitual.Client.Pages.HabitConceptEditor",
-        "AssemblyName": "Habitual.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Habitual.Client.Pages.HabitConceptEditor"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Concept",
-            "TypeName": "Habitual.Client.HabitConcept",
-            "Metadata": {
-              "Common.PropertyName": "Concept"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Mode",
-            "TypeName": "Habitual.Client.ComponentMode",
-            "IsEnum": true,
-            "Metadata": {
-              "Common.PropertyName": "Mode"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "OnClick",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Habitual.Client.HabitConcept>",
-            "Metadata": {
-              "Common.PropertyName": "OnClick",
-              "Components.EventCallback": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Habitual.Client.Pages.HabitConceptEditor",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
       {
         "HashCode": 2034937124,
         "Kind": "Components.Component",
@@ -288,6 +100,39 @@
         }
       },
       {
+        "HashCode": 1865889023,
+        "Kind": "Components.Component",
+        "Name": "Habitual.Client.Pages.Index",
+        "AssemblyName": "Habitual.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Habitual.Client.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 1938751311,
+        "Kind": "Components.Component",
+        "Name": "Habitual.Client.Pages.Index",
+        "AssemblyName": "Habitual.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Habitual.Client.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Habitual.Client.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -324041095,
         "Kind": "Components.Component",
         "Name": "Habitual.Client.Pages.Habits",
@@ -321,55 +166,124 @@
         }
       },
       {
-        "HashCode": 284523775,
+        "HashCode": 1949701388,
         "Kind": "Components.Component",
-        "Name": "Habitual.Client.Shared.SurveyPrompt",
+        "Name": "Habitual.Client.Pages.HabitConceptEditor",
         "AssemblyName": "Habitual.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt"
+            "TagName": "HabitConceptEditor"
           }
         ],
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
+            "Name": "Concept",
+            "TypeName": "Habitual.Client.HabitConcept",
             "Metadata": {
-              "Common.PropertyName": "Title"
+              "Common.PropertyName": "Concept"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Mode",
+            "TypeName": "Habitual.Client.ComponentMode",
+            "IsEnum": true,
+            "Metadata": {
+              "Common.PropertyName": "Mode"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnClick",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Habitual.Client.HabitConcept>",
+            "Metadata": {
+              "Common.PropertyName": "OnClick",
+              "Components.EventCallback": "True"
             }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Habitual.Client.Shared.SurveyPrompt"
+          "Common.TypeName": "Habitual.Client.Pages.HabitConceptEditor"
         }
       },
       {
-        "HashCode": 1431881100,
+        "HashCode": 1821428313,
         "Kind": "Components.Component",
-        "Name": "Habitual.Client.Shared.SurveyPrompt",
+        "Name": "Habitual.Client.Pages.HabitConceptEditor",
         "AssemblyName": "Habitual.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Habitual.Client.Shared.SurveyPrompt"
+            "TagName": "Habitual.Client.Pages.HabitConceptEditor"
           }
         ],
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
+            "Name": "Concept",
+            "TypeName": "Habitual.Client.HabitConcept",
             "Metadata": {
-              "Common.PropertyName": "Title"
+              "Common.PropertyName": "Concept"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Mode",
+            "TypeName": "Habitual.Client.ComponentMode",
+            "IsEnum": true,
+            "Metadata": {
+              "Common.PropertyName": "Mode"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnClick",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Habitual.Client.HabitConcept>",
+            "Metadata": {
+              "Common.PropertyName": "OnClick",
+              "Components.EventCallback": "True"
             }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Habitual.Client.Shared.SurveyPrompt",
+          "Common.TypeName": "Habitual.Client.Pages.HabitConceptEditor",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1718762729,
+        "Kind": "Components.Component",
+        "Name": "Habitual.Client.Pages.HabitRecorder",
+        "AssemblyName": "Habitual.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "HabitRecorder"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Habitual.Client.Pages.HabitRecorder"
+        }
+      },
+      {
+        "HashCode": 94801693,
+        "Kind": "Components.Component",
+        "Name": "Habitual.Client.Pages.HabitRecorder",
+        "AssemblyName": "Habitual.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Habitual.Client.Pages.HabitRecorder"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Habitual.Client.Pages.HabitRecorder",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13207,57 +13121,47 @@
   "RootNamespace": "Habitual.Client",
   "Documents": [
     {
-      "FilePath": "c:\\programming\\Blazor\\Habitual\\Habitual.Client\\Pages\\Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\programming\\Blazor\\Habitual\\Habitual.Client\\Shared\\MainLayout.razor",
+      "FilePath": "c:\\Programming\\Blazor\\Habitual\\Habitual.Client\\Shared\\MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\programming\\Blazor\\Habitual\\Habitual.Client\\Pages\\Habits.razor",
+      "FilePath": "c:\\Programming\\Blazor\\Habitual\\Habitual.Client\\Pages\\Habits.razor",
       "TargetPath": "Pages\\Habits.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\programming\\Blazor\\Habitual\\Habitual.Client\\App.razor",
+      "FilePath": "c:\\Programming\\Blazor\\Habitual\\Habitual.Client\\App.razor",
       "TargetPath": "App.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\programming\\Blazor\\Habitual\\Habitual.Client\\Shared\\SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\programming\\Blazor\\Habitual\\Habitual.Client\\Pages\\HabitConceptEditor.razor",
+      "FilePath": "c:\\Programming\\Blazor\\Habitual\\Habitual.Client\\Pages\\HabitConceptEditor.razor",
       "TargetPath": "Pages\\HabitConceptEditor.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\programming\\Blazor\\Habitual\\Habitual.Client\\Pages\\StorageHelper.razor",
+      "FilePath": "c:\\Programming\\Blazor\\Habitual\\Habitual.Client\\Pages\\StorageHelper.razor",
       "TargetPath": "Pages\\StorageHelper.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\programming\\Blazor\\Habitual\\Habitual.Client\\_Imports.razor",
+      "FilePath": "c:\\Programming\\Blazor\\Habitual\\Habitual.Client\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
     },
     {
-      "FilePath": "c:\\programming\\Blazor\\Habitual\\Habitual.Client\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\programming\\Blazor\\Habitual\\Habitual.Client\\Shared\\NavMenu.razor",
+      "FilePath": "c:\\Programming\\Blazor\\Habitual\\Habitual.Client\\Shared\\NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\programming\\Blazor\\Habitual\\Habitual.Client\\Pages\\Index.razor",
+      "FilePath": "c:\\Programming\\Blazor\\Habitual\\Habitual.Client\\Pages\\HabitRecorder.razor",
+      "TargetPath": "Pages\\HabitRecorder.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Programming\\Blazor\\Habitual\\Habitual.Client\\Pages\\Index.razor",
       "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
     }

@@ -1,0 +1,47 @@
+@page "/record"
+@using Habitual.Client
+@inject HabitsModel Model
+
+<h1>Record a Habit</h1>
+
+<select @onchange="ItemSelected" size="5">
+@foreach (var habit in Model.HabitConcepts){
+    <option value="@habit.Id">@habit.Name</option>
+}
+</select>
+
+@if(selectedHabit != null) {
+    <div>
+        Selected Habit: @selectedHabit.Name
+    </div>
+    <div>
+        <EditForm Model="@newInstance" OnValidSubmit="@(() => OnAddInstance(newInstance))">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+            <input value="@newInstance.When"/>
+            <button type="submit">Record</button>
+        </EditForm>
+    </div>
+    <div>
+        @foreach (var instance in records) {
+            @instance.When.ToString() <br/>
+        }
+    </div>
+}
+
+@code {
+    private HabitConcept selectedHabit;
+
+    private HabitInstance newInstance = new HabitInstance {When=DateTime.Now};
+
+    private List<HabitInstance> records = new List<HabitInstance>();
+
+    private void ItemSelected(ChangeEventArgs eventArgs) {
+        selectedHabit = Model.HabitConcepts.Where(concept => concept.Id.ToString() == eventArgs.Value.ToString()).First();
+    }
+
+    private void OnAddInstance(HabitInstance instance) {
+        records.Add(instance);
+        newInstance = new HabitInstance {When=DateTime.Now};
+    }
+}
